@@ -7,7 +7,7 @@ function generar(){
     let numeroDIgitado = parseInt (cantidad.value);
 
     if(numeroDIgitado < 6){
-        alert("La cantidad de caracteres debe ser mayor que 6");
+        alert("La cantidad de caracteres deben ser mayor que 6");
     }
     let password = '';
     for(let i = 0; i < numeroDIgitado; i++){
